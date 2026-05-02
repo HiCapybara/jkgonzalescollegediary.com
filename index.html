@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My College Diary</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+        <h1>My College Diary</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="diary.html">Diary</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <p id="clock"></p>
+
+    <style>
+#clock{
+position:absolute;
+top:20px;
+right:30px;
+font-size:18px;
+font-weight:bold;
+color:white;
+}
+
+</style>
+<script>
+  
+
+setInterval(function(){
+document.getElementById("clock").innerHTML = new Date().toLocaleTimeString();
+},1000);
+</script>
+    
+     <section>
+    <h2>Welcome!</h2>
+        <p>Hello! I'm John Kenneth Ariscon Gonzales From BSIT 2-1 School of Information Technology, an IT student sharing my college journey.</p>     
+        <img src="lab.jpg" alt="Profile Image" height="600">
+         <img src="P.E.jpg" alt="Profile Image" height="600">
+         
+        
+         
+</body>
+</html>
